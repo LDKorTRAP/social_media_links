@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    background: #A288E3;
+    margin: 0;
+    padding: 0;
+}
+
+.alinha{
+    margin: auto;
+    text-align: center;
+}
+
+#corpo{
+    background-color: #cefdff9e;
+    text-align: justify;
+    width: 960px;
+    height: 800px;
+    border-radius: 50px;
+    box-shadow: 0 6px 0 #EB00FF;
+    display: absolute;
+}
+
+#corpo_titulo{
+    padding-top: 2px;
+    background-color: #BBD5ED;
+    width: 525px;
+    height: 95px;
+    border-radius: 25px;
+    box-shadow: 0 6px 0 #EB00FF;
+    display: absolute;
+}
+
+#titulo{
+    color: #30332E;
+    font-family: 'Libre Baskerville';
+    text-align: center;
+    margin: 10px;
+}
+
+.botones{
+    width: 855px;
+    height: 115px;
+    background-color: #CEFDFF;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 6px 0 #000dff;
+    cursor: pointer;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Josefin Sans';
+    color: #30332E;
+}
+
+.botones:active{
+    transform: translateY(5px);
+    box-shadow: 0 3px 0 #EB00FF;
+    color: rgb(0, 0, 0);
+}
+
+.pad{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+
+.icones{
+    width: 45px;
+    height: 45px;
+    padding-left: 25px;
+}
+
+footer{
+    background-color: #38023B;
+    font-family: 'Josefin Sans';
+    bottom: 0;
+}
+
+header{
+    background-color: #38023B;
+}
+
+header, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+}
+
+.tutubarao{
+    width: 60px;
+    height: 60px;
+}
+
+#tubotao{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+}
+
+#tubotao:active{
+    transform: translateY(5px);
+}
+
+#centralizado{
+    display: grid;
+    place-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+#wiki{
+    color: aliceblue;
+    text-decoration: none;
+}
