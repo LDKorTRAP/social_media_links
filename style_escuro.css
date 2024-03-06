@@ -158,22 +158,17 @@ header, footer{
 
 @media screen and (max-width: 800px){
     #corpo{
-        width: 600px;
-        height: 750px;
+        width: 350px;
     }
     #corpo_titulo{
-        width: 400px;
-        height: 100px;
-    }
-    h1{
-        font-size: 25px;
+        width: 300px;
     }
     .botones{
-        width: 400px;
-        height: 75px;
-        font-size: 25px;
+        width: 250px;
+        font-size: 20px;
     }
     .icons{
-        width: 10px;
+        width: 15px;
+        height: 15px;
     }
 }
