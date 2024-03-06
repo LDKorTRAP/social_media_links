@@ -132,3 +132,25 @@ header, footer{
         height: 15px;
     }
 }
+
+@media screen and (max-width: 450px){
+    #corpo{
+        width: 350px;
+        height: 750px;
+    }
+    #corpo_titulo{
+        width: 200px;
+        height: 75px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .botones{
+        width: 200px;
+        height: 75px;
+        font-size: 15px;
+    }
+    .icons{
+        width: 10px;
+    }
+}
